@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-03-31T08:46:44.584Z</updated>
+  <updated>2017-04-08T02:53:30.384Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Markdown写文章</title>
+    <link href="http://yoursite.com/2017/04/08/markdown/"/>
+    <id>http://yoursite.com/2017/04/08/markdown/</id>
+    <published>2017-04-08T02:58:56.000Z</published>
+    <updated>2017-04-08T02:53:30.384Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="溜溜溜"><a href="#溜溜溜" class="headerlink" title="溜溜溜"></a>溜溜溜</h3><blockquote>
+<p>用markdown的语法来写文章，是怎么样的一种体验？</p>
+<blockquote>
+<p>1.1只要记住简单的几个常用标记，就可以实现快速的排版。<br>1.2写文章时，可以按自己的审美来定模板。</p>
+</blockquote>
+</blockquote>
+<h2 id="1-语法的认识"><a href="#1-语法的认识" class="headerlink" title="1.语法的认识"></a>1.语法的认识</h2><h3 id="1-1标题"><a href="#1-1标题" class="headerlink" title="1.1标题"></a>1.1标题</h3><blockquote>
+<p>类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），<code>任何数量的 = 和 - 都可以有效果</code>例如：<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">This is an H1</div><div class="line">==</div><div class="line">This is an H2</div><div class="line">--</div></pre></td></tr></table></figure></p>
+<p>类 Atx 形式则是在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶，例如：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># 这是 <span class="selector-tag">H1</span></div><div class="line">## 这是 <span class="selector-tag">H2</span></div><div class="line">###### 这是 <span class="selector-tag">H6</span></div></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="1-2区块引用-Blockquotes"><a href="#1-2区块引用-Blockquotes" class="headerlink" title="1.2区块引用 Blockquotes"></a>1.2区块引用 Blockquotes</h4><blockquote>
+<p>在开头写入大于号“&gt;”</p>
+<blockquote>
+<p>再嵌套引用输入“&gt;&gt;”</p>
+<blockquote>
+<p>三引用输入”&gt;&gt;&gt;”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">嵌套---只要根据层次加上不同数量的 &quot;&gt;&quot;</div></pre></td></tr></table></figure></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="1-3列表"><a href="#1-3列表" class="headerlink" title="1.3列表"></a>1.3列表</h4><blockquote>
+<p><strong>Markdown 支持有序列表和无序列表。</strong></p>
+<h6 id="a-无序列表使用星号-、加号-或是减号-作为列表标记：记得在符号后面有空格"><a href="#a-无序列表使用星号-、加号-或是减号-作为列表标记：记得在符号后面有空格" class="headerlink" title="a.无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：记得在符号后面有空格"></a>a.无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：<code>记得在符号后面有空格</code></h6><ul>
+<li>用星号（*）加空格就变圆形符号</li>
+<li>嘿嘿</li>
+<li>嘻嘻<ul>
+<li>用加号</li>
+</ul>
+<ul>
+<li>用减号</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h6 id="b-有序列表则使用数字接着一个英文句点："><a href="#b-有序列表则使用数字接着一个英文句点：" class="headerlink" title="b.有序列表则使用数字接着一个英文句点："></a>b.有序列表则使用数字接着一个英文句点：</h6><p>1.one<br>2.two<br>3.three<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">* 列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="1-4分割线"><a href="#1-4分割线" class="headerlink" title="1.4分割线"></a>1.4分割线</h4><blockquote>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">* * *</div><div class="line">***</div><div class="line">*****</div><div class="line">- - -</div><div class="line">---------------------------------------</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="1-5代码区块"><a href="#1-5代码区块" class="headerlink" title="1.5代码区块"></a>1.5代码区块</h4><blockquote>
+<p>用反引号（`）来表示。<br>用三个反引号以上的，会产生带边框的盒子<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$(&apos;.edit_a&apos;).on(&apos;click&apos;,function()&#123;</div><div class="line">    layer.confirm($(&quot;#edit_group&quot;),&#123;</div><div class="line">        type:1,</div><div class="line">        title:&quot;小组编辑&quot;,</div><div class="line">        btn:[&quot;提交&quot;,&quot;取消&quot;],</div><div class="line">        area: [&apos;460px&apos;, &apos;auto&apos;],</div><div class="line">    &#125;,function(index)&#123;</div><div class="line">        layer.close(index);</div><div class="line">    &#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;溜溜溜&quot;&gt;&lt;a href=&quot;#溜溜溜&quot; class=&quot;headerlink&quot; title=&quot;溜溜溜&quot;&gt;&lt;/a&gt;溜溜溜&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;用markdown的语法来写文章，是怎么样的一种体验？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.1只要
+    
+    </summary>
+    
+      <category term="前端笔记" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>三月的尾巴</title>
