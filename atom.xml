@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-08T02:53:30.384Z</updated>
+  <updated>2017-05-03T06:28:46.618Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ES6</title>
+    <link href="http://yoursite.com/2017/05/03/%E4%BA%94%E6%9C%88%E7%9A%84%E5%A4%A9/"/>
+    <id>http://yoursite.com/2017/05/03/五月的天/</id>
+    <published>2017-05-03T06:14:40.000Z</published>
+    <updated>2017-05-03T06:28:46.618Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="最常见的ES6特性："><a href="#最常见的ES6特性：" class="headerlink" title="最常见的ES6特性："></a>最常见的ES6特性：</h5><p>let, const, class, extends, super, arrow functions, template string, destructuring, default, rest arguments</p>
+<h5 id="let-const类似于var"><a href="#let-const类似于var" class="headerlink" title="let, const类似于var."></a>let, const类似于var.</h5><p>let定义了块级作用域，const多用于定于常量。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">let name = &apos;zach&apos;</div><div class="line"></div><div class="line">while (true) &#123;</div><div class="line">    let name = &apos;obama&apos;</div><div class="line">    console.log(name)  //obama</div><div class="line">    break</div><div class="line">&#125;</div><div class="line"></div><div class="line">console.log(name)  //zach</div></pre></td></tr></table></figure>
+<p>let不会让变量泄露变成全局变量。</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">function iteratorFactory(i)&#123;</div><div class="line">    var onclick = function(e)&#123;</div><div class="line">        console.log(i)</div><div class="line">    &#125;</div><div class="line">    return onclick;</div><div class="line">&#125;</div><div class="line">var clickBoxs = document.querySelectorAll(&apos;.clickBox&apos;)</div><div class="line">for (var i = 0; i &lt; clickBoxs.length; i++)&#123;</div><div class="line">    clickBoxs[i].onclick = iteratorFactory(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;最常见的ES6特性：&quot;&gt;&lt;a href=&quot;#最常见的ES6特性：&quot; class=&quot;headerlink&quot; title=&quot;最常见的ES6特性：&quot;&gt;&lt;/a&gt;最常见的ES6特性：&lt;/h5&gt;&lt;p&gt;let, const, class, extends, super, arr
+    
+    </summary>
+    
+      <category term="前端笔记" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Markdown写文章</title>
